@@ -1,0 +1,58 @@
+html, body{
+    height: 100vh;
+}
+
+main{
+    min-height: calc(100% - 240px - 94px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-home{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.jumbotron{
+    margin-top: 2rem;
+}
+
+.profile-list a{
+    color: black;
+    
+}
+
+.profile-list p{
+    padding-top: 25px;
+}
+
+.profile-list {
+    background-color: lightgray;
+    min-height: calc(100vh - 240px - 94px - 40px);
+}
+
+.inquiry-control label{
+    padding-top: 5px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* a:hover{
+    text-decoration: underline !important;
+}  */
+
+.footer-anchor{
+    text-decoration: none !important;
+    color: #343a40;
+    padding-left: 15px;
+    padding-right: 15px;
+}
